@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42BCE8691E968661009CC395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCE8681E968661009CC395 /* main.m */; };
+		42BCE86C1E968661009CC395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCE86B1E968661009CC395 /* AppDelegate.m */; };
+		42BCE86F1E968661009CC395 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCE86E1E968661009CC395 /* ViewController.m */; };
+		42BCE8721E968661009CC395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BCE8701E968661009CC395 /* Main.storyboard */; };
+		42BCE8751E968661009CC395 /* TTStatusBarDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42BCE8731E968661009CC395 /* TTStatusBarDemo.xcdatamodeld */; };
+		42BCE8771E968661009CC395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BCE8761E968661009CC395 /* Assets.xcassets */; };
+		42BCE87A1E968661009CC395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BCE8781E968661009CC395 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42BCE8641E968661009CC395 /* TTStatusBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTStatusBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BCE8681E968661009CC395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42BCE86A1E968661009CC395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42BCE86B1E968661009CC395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42BCE86D1E968661009CC395 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42BCE86E1E968661009CC395 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42BCE8711E968661009CC395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42BCE8741E968661009CC395 /* TTStatusBarDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTStatusBarDemo.xcdatamodel; sourceTree = "<group>"; };
+		42BCE8761E968661009CC395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42BCE8791E968661009CC395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42BCE87B1E968661009CC395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42BCE8611E968661009CC395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42BCE85B1E968661009CC395 = {
+			isa = PBXGroup;
+			children = (
+				42BCE8661E968661009CC395 /* TTStatusBarDemo */,
+				42BCE8651E968661009CC395 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42BCE8651E968661009CC395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42BCE8641E968661009CC395 /* TTStatusBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42BCE8661E968661009CC395 /* TTStatusBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42BCE86A1E968661009CC395 /* AppDelegate.h */,
+				42BCE86B1E968661009CC395 /* AppDelegate.m */,
+				42BCE86D1E968661009CC395 /* ViewController.h */,
+				42BCE86E1E968661009CC395 /* ViewController.m */,
+				42BCE8701E968661009CC395 /* Main.storyboard */,
+				42BCE8761E968661009CC395 /* Assets.xcassets */,
+				42BCE8781E968661009CC395 /* LaunchScreen.storyboard */,
+				42BCE87B1E968661009CC395 /* Info.plist */,
+				42BCE8731E968661009CC395 /* TTStatusBarDemo.xcdatamodeld */,
+				42BCE8671E968661009CC395 /* Supporting Files */,
+			);
+			path = TTStatusBarDemo;
+			sourceTree = "<group>";
+		};
+		42BCE8671E968661009CC395 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42BCE8681E968661009CC395 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42BCE8631E968661009CC395 /* TTStatusBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42BCE87E1E968661009CC395 /* Build configuration list for PBXNativeTarget "TTStatusBarDemo" */;
+			buildPhases = (
+				42BCE8601E968661009CC395 /* Sources */,
+				42BCE8611E968661009CC395 /* Frameworks */,
+				42BCE8621E968661009CC395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTStatusBarDemo;
+			productName = TTStatusBarDemo;
+			productReference = 42BCE8641E968661009CC395 /* TTStatusBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42BCE85C1E968661009CC395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhangliangwang;
+				TargetAttributes = {
+					42BCE8631E968661009CC395 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42BCE85F1E968661009CC395 /* Build configuration list for PBXProject "TTStatusBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42BCE85B1E968661009CC395;
+			productRefGroup = 42BCE8651E968661009CC395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42BCE8631E968661009CC395 /* TTStatusBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42BCE8621E968661009CC395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BCE87A1E968661009CC395 /* LaunchScreen.storyboard in Resources */,
+				42BCE8771E968661009CC395 /* Assets.xcassets in Resources */,
+				42BCE8721E968661009CC395 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42BCE8601E968661009CC395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42BCE86F1E968661009CC395 /* ViewController.m in Sources */,
+				42BCE86C1E968661009CC395 /* AppDelegate.m in Sources */,
+				42BCE8751E968661009CC395 /* TTStatusBarDemo.xcdatamodeld in Sources */,
+				42BCE8691E968661009CC395 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42BCE8701E968661009CC395 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BCE8711E968661009CC395 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42BCE8781E968661009CC395 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42BCE8791E968661009CC395 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42BCE87C1E968661009CC395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42BCE87D1E968661009CC395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42BCE87F1E968661009CC395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTStatusBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.TTStatusBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42BCE8801E968661009CC395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTStatusBarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.TTStatusBarDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42BCE85F1E968661009CC395 /* Build configuration list for PBXProject "TTStatusBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BCE87C1E968661009CC395 /* Debug */,
+				42BCE87D1E968661009CC395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42BCE87E1E968661009CC395 /* Build configuration list for PBXNativeTarget "TTStatusBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42BCE87F1E968661009CC395 /* Debug */,
+				42BCE8801E968661009CC395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42BCE8731E968661009CC395 /* TTStatusBarDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42BCE8741E968661009CC395 /* TTStatusBarDemo.xcdatamodel */,
+			);
+			currentVersion = 42BCE8741E968661009CC395 /* TTStatusBarDemo.xcdatamodel */;
+			path = TTStatusBarDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42BCE85C1E968661009CC395 /* Project object */;
+}
