@@ -14,6 +14,8 @@
 		42BCE8751E968661009CC395 /* TTStatusBarDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42BCE8731E968661009CC395 /* TTStatusBarDemo.xcdatamodeld */; };
 		42BCE8771E968661009CC395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42BCE8761E968661009CC395 /* Assets.xcassets */; };
 		42BCE87A1E968661009CC395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BCE8781E968661009CC395 /* LaunchScreen.storyboard */; };
+		42BCE8831E968788009CC395 /* TTPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCE8821E968788009CC395 /* TTPersonalViewController.m */; };
+		42BCE8861E968799009CC395 /* TTAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BCE8851E968799009CC395 /* TTAboutUsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		42BCE8761E968661009CC395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BCE8791E968661009CC395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42BCE87B1E968661009CC395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42BCE8811E968788009CC395 /* TTPersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPersonalViewController.h; sourceTree = "<group>"; };
+		42BCE8821E968788009CC395 /* TTPersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPersonalViewController.m; sourceTree = "<group>"; };
+		42BCE8841E968799009CC395 /* TTAboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAboutUsViewController.h; sourceTree = "<group>"; };
+		42BCE8851E968799009CC395 /* TTAboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAboutUsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,10 @@
 				42BCE86B1E968661009CC395 /* AppDelegate.m */,
 				42BCE86D1E968661009CC395 /* ViewController.h */,
 				42BCE86E1E968661009CC395 /* ViewController.m */,
+				42BCE8811E968788009CC395 /* TTPersonalViewController.h */,
+				42BCE8821E968788009CC395 /* TTPersonalViewController.m */,
+				42BCE8841E968799009CC395 /* TTAboutUsViewController.h */,
+				42BCE8851E968799009CC395 /* TTAboutUsViewController.m */,
 				42BCE8701E968661009CC395 /* Main.storyboard */,
 				42BCE8761E968661009CC395 /* Assets.xcassets */,
 				42BCE8781E968661009CC395 /* LaunchScreen.storyboard */,
@@ -113,6 +123,7 @@
 				TargetAttributes = {
 					42BCE8631E968661009CC395 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9U8V96N7M7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,6 +166,8 @@
 			files = (
 				42BCE86F1E968661009CC395 /* ViewController.m in Sources */,
 				42BCE86C1E968661009CC395 /* AppDelegate.m in Sources */,
+				42BCE8861E968799009CC395 /* TTAboutUsViewController.m in Sources */,
+				42BCE8831E968788009CC395 /* TTPersonalViewController.m in Sources */,
 				42BCE8751E968661009CC395 /* TTStatusBarDemo.xcdatamodeld in Sources */,
 				42BCE8691E968661009CC395 /* main.m in Sources */,
 			);
@@ -276,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9U8V96N7M7;
 				INFOPLIST_FILE = TTStatusBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.TTStatusBarDemo;
@@ -287,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9U8V96N7M7;
 				INFOPLIST_FILE = TTStatusBarDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.TTStatusBarDemo;
